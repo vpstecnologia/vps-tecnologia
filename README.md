@@ -1,14 +1,6 @@
-# VPS Tecnologia - Site v3
+# VPS Tecnologia - Site v4
 
-Versão atualizada do site.
-
-## O que mudou
-- Inserida logo no canto superior esquerdo.
-- Removida a frase sobre não exibir preços avulsos.
-- Não há menção a empresas/clientes atendidos.
-- Mantidos apenas os planos empresariais.
-- Incluída seção de área de atendimento.
-- Visual corporativo em azul, cinza, branco e preto.
+Arquivos prontos para subir no GitHub e publicar no Cloudflare Pages.
 
 ## Arquivos
 - index.html
@@ -17,11 +9,19 @@ Versão atualizada do site.
 - logo.svg
 
 ## Como atualizar no GitHub
-1. Entre no repositório `vps-tecnologia`.
+1. Acesse o repositório `vps-tecnologia`.
 2. Clique em `Add file`.
 3. Clique em `Upload files`.
-4. Envie todos os arquivos desta pasta.
-5. Quando perguntar, substitua os antigos.
+4. Envie estes arquivos:
+   - index.html
+   - style.css
+   - script.js
+   - logo.svg
+5. O GitHub vai perguntar se deseja substituir os arquivos antigos. Confirme.
 6. Clique em `Commit changes`.
 
-Se o Cloudflare Pages já estiver conectado, o site atualiza automaticamente.
+## Observações
+- A logo foi corrigida para não ficar cortada no canto superior esquerdo.
+- Não há menção a empresas atendidas.
+- A tabela de preços avulsos foi removida.
+- Os planos empresariais continuam no site.

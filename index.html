@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>VPS Tecnologia | Suporte em TI em Penedo/AL</title>
-  <meta name="description" content="VPS Tecnologia: suporte técnico, manutenção, backup, redes, Wi‑Fi, impressoras e planos empresariais em Penedo/AL. Diagnóstico gratuito." />
-  <meta name="keywords" content="suporte de TI em Penedo, informática em Penedo, formatação de computador, manutenção de computador, redes, backup, VPS Tecnologia" />
+  <meta name="description" content="Suporte técnico, manutenção, backup, redes, Wi‑Fi, impressoras e planos empresariais em Penedo/AL. Diagnóstico gratuito em Penedo." />
+  <meta name="keywords" content="suporte de TI em Penedo, informática em Penedo, formatação de computador, manutenção de computador, redes, Wi-Fi, backup, VPS Tecnologia" />
   <meta name="theme-color" content="#0f172a" />
 
   <meta property="og:title" content="VPS Tecnologia | Soluções em TI" />
@@ -17,7 +17,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -25,7 +24,7 @@
   <header class="header">
     <div class="container nav">
       <a href="#inicio" class="brand" aria-label="VPS Tecnologia">
-        <img src="logo.svg" alt="VPS Tecnologia" class="brand-logo">
+        <img src="logo.svg" alt="VPS Tecnologia" />
       </a>
 
       <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
@@ -36,12 +35,14 @@
         <a href="#planos">Planos</a>
         <a href="#como-funciona">Como funciona</a>
         <a href="#contato">Contato</a>
+        <a class="nav-whatsapp" id="whatsappTop" target="_blank" rel="noopener">WhatsApp</a>
       </nav>
     </div>
   </header>
 
   <main id="inicio">
     <section class="hero">
+      <div class="hero-bg"></div>
       <div class="container hero-grid">
         <div class="hero-text">
           <p class="tag">Atendimento em Penedo/AL</p>
@@ -57,35 +58,48 @@
           </div>
 
           <div class="highlights">
-            <div><strong>✓</strong> Diagnóstico gratuito em Penedo</div>
-            <div><strong>✓</strong> Orçamento antes da execução</div>
-            <div><strong>✓</strong> Atendimento residencial e empresarial</div>
+            <div><span>✓</span> Diagnóstico gratuito em Penedo</div>
+            <div><span>✓</span> Orçamento antes da execução</div>
+            <div><span>✓</span> Atendimento residencial e empresarial</div>
           </div>
         </div>
 
         <div class="hero-panel">
-          <div class="panel-top">
-            <span class="status"></span>
-            <p>Atendimento disponível</p>
+          <div class="panel-status">
+            <span></span>
+            <strong>Atendimento disponível</strong>
           </div>
+
           <h2>Problemas que resolvemos</h2>
-          <ul>
-            <li>Computador lento ou travando</li>
-            <li>Formatação e backup de arquivos</li>
-            <li>Internet fraca ou Wi‑Fi instável</li>
-            <li>Impressora sem funcionar</li>
-            <li>Suporte mensal para empresas</li>
-          </ul>
+
+          <div class="problem-list">
+            <div><span>🖥️</span> Computador lento ou travando</div>
+            <div><span>📄</span> Formatação e backup de arquivos</div>
+            <div><span>📶</span> Internet fraca ou Wi‑Fi instável</div>
+            <div><span>🖨️</span> Impressora sem funcionar</div>
+            <div><span>🎧</span> Suporte mensal para empresas</div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <section class="quick-services">
+      <div class="container quick-grid">
+        <div><span>🖥️</span><strong>Manutenção de computadores</strong><small>Reparo, limpeza e otimização.</small></div>
+        <div><span>📶</span><strong>Redes e Wi‑Fi</strong><small>Instalação e melhorias.</small></div>
+        <div><span>🖨️</span><strong>Impressoras</strong><small>Instalação e configuração.</small></div>
+        <div><span>☁️</span><strong>Backup e segurança</strong><small>Proteção dos dados importantes.</small></div>
+        <div><span>🎧</span><strong>Suporte técnico</strong><small>Presencial e remoto.</small></div>
       </div>
     </section>
 
     <section class="section" id="sobre">
       <div class="container split">
         <div>
-          <p class="tag dark">Quem somos</p>
+          <p class="tag blue">Quem somos</p>
           <h2>Tecnologia com linguagem simples e foco em solução.</h2>
         </div>
+
         <div class="content">
           <p>
             A VPS Tecnologia nasceu para ajudar pessoas e pequenos negócios de Penedo/AL
@@ -102,47 +116,18 @@
     <section class="section soft" id="servicos">
       <div class="container">
         <div class="section-title">
-          <p class="tag dark">Serviços</p>
+          <p class="tag blue">Serviços</p>
           <h2>Tudo o que sua casa ou empresa precisa em tecnologia.</h2>
           <p>Atendimento para residências e empresas, com soluções em informática, redes, backup e suporte técnico.</p>
         </div>
 
         <div class="service-grid">
-          <article class="card">
-            <div class="icon">💻</div>
-            <h3>Computadores e notebooks</h3>
-            <p>Formatação, limpeza, otimização, instalação de SSD, drivers e correção de lentidão.</p>
-          </article>
-
-          <article class="card">
-            <div class="icon">🗂️</div>
-            <h3>Backup de arquivos</h3>
-            <p>Cópia e organização de documentos, fotos, planilhas e arquivos importantes.</p>
-          </article>
-
-          <article class="card">
-            <div class="icon">📡</div>
-            <h3>Redes e Wi‑Fi</h3>
-            <p>Configuração de roteadores, melhoria de sinal, pontos de rede e organização da estrutura.</p>
-          </article>
-
-          <article class="card">
-            <div class="icon">🖨️</div>
-            <h3>Impressoras</h3>
-            <p>Instalação, configuração Wi‑Fi, compartilhamento em rede e ajustes de funcionamento.</p>
-          </article>
-
-          <article class="card">
-            <div class="icon">🧑‍💼</div>
-            <h3>Suporte empresarial</h3>
-            <p>Planos mensais para empresas que precisam de suporte contínuo e preventivo.</p>
-          </article>
-
-          <article class="card">
-            <div class="icon">🛠️</div>
-            <h3>Suporte remoto</h3>
-            <p>Atendimento à distância para problemas simples, configurações e orientações.</p>
-          </article>
+          <article class="card"><span>💻</span><h3>Computadores e notebooks</h3><p>Formatação, limpeza, otimização, instalação de SSD, drivers e correção de lentidão.</p></article>
+          <article class="card"><span>🗂️</span><h3>Backup de arquivos</h3><p>Cópia e organização de documentos, fotos, planilhas e arquivos importantes.</p></article>
+          <article class="card"><span>📡</span><h3>Redes e Wi‑Fi</h3><p>Configuração de roteadores, melhoria de sinal, pontos de rede e organização da estrutura.</p></article>
+          <article class="card"><span>🖨️</span><h3>Impressoras</h3><p>Instalação, configuração Wi‑Fi, compartilhamento em rede e ajustes de funcionamento.</p></article>
+          <article class="card"><span>🧑‍💼</span><h3>Suporte empresarial</h3><p>Planos mensais para empresas que precisam de suporte contínuo e preventivo.</p></article>
+          <article class="card"><span>🛠️</span><h3>Suporte remoto</h3><p>Atendimento à distância para problemas simples, configurações e orientações.</p></article>
         </div>
       </div>
     </section>
@@ -150,7 +135,7 @@
     <section class="section" id="planos">
       <div class="container">
         <div class="section-title">
-          <p class="tag dark">Planos empresariais</p>
+          <p class="tag blue">Planos empresariais</p>
           <h2>Suporte mensal para pequenos negócios</h2>
           <p>Ideal para contabilidades, clínicas, lojas, escritórios, consultórios, farmácias, mercados e empresas locais.</p>
         </div>
@@ -169,7 +154,7 @@
           </article>
 
           <article class="plan featured">
-            <span class="badge">Mais indicado</span>
+            <small>Mais indicado</small>
             <h3>Profissional</h3>
             <p class="price">R$ 449<span>/mês</span></p>
             <ul>
@@ -199,7 +184,7 @@
     <section class="section soft" id="como-funciona">
       <div class="container split">
         <div>
-          <p class="tag dark">Como funciona</p>
+          <p class="tag blue">Como funciona</p>
           <h2>Atendimento sem surpresa.</h2>
           <p class="muted">Você sabe o que será feito e aprova o orçamento antes da execução.</p>
         </div>
@@ -233,7 +218,7 @@
     <section class="section area">
       <div class="container split">
         <div>
-          <p class="tag dark">Área de atendimento</p>
+          <p class="tag blue">Área de atendimento</p>
           <h2>Atendimento em Penedo e região.</h2>
           <p class="muted">Atendimento presencial em Penedo/AL. Para cidades vizinhas, o deslocamento é combinado conforme a necessidade.</p>
         </div>
@@ -246,7 +231,7 @@
 
     <section class="section contact" id="contato">
       <div class="container contact-box">
-        <p class="tag dark">Contato</p>
+        <p class="tag blue">Contato</p>
         <h2>Solicite seu diagnóstico gratuito em Penedo.</h2>
         <p>
           Fale com a VPS Tecnologia pelo WhatsApp e explique rapidamente o que está acontecendo.
