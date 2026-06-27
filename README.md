@@ -1,28 +1,17 @@
-# VPS Tecnologia - Site v7
+# VPS Tecnologia - Site v8
 
-Versão com logo corrigida.
+Correção definitiva da logo e do ícone.
 
-## O que foi corrigido
-- Removida logo em SVG deformada.
-- Removido uso de print/imagem colada.
-- Logo agora é feita com HTML + CSS, sem distorção.
-- Funciona bem em desktop e celular.
+## O que foi feito
+- Removido o ícone bugado.
+- Removida logo SVG deformada.
+- Logo agora é texto limpo: VPS Tecnologia / Soluções em TI.
+- Favicon simples e correto com "VPS".
 - Sem tabela de preços avulsos.
 - Sem menção a empresas atendidas.
 
-## Arquivos para subir no GitHub
+## Arquivos para subir
 - index.html
 - style.css
 - script.js
-
-## Como subir
-1. Entre no GitHub.
-2. Abra o repositório `vps-tecnologia`.
-3. Clique em `Add file`.
-4. Clique em `Upload files`.
-5. Envie:
-   - index.html
-   - style.css
-   - script.js
-6. Confirme a substituição dos arquivos antigos.
-7. Clique em `Commit changes`.
+- favicon.svg

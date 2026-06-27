@@ -49,72 +49,31 @@ a { color: inherit; text-decoration: none; }
 
 .brand {
   display: inline-flex;
-  align-items: center;
-  gap: 14px;
+  flex-direction: column;
+  justify-content: center;
   min-width: 0;
 }
 
-.brand-symbol {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 92px;
-  height: 48px;
-  padding: 0 10px;
-  border-radius: 16px;
-  background: #0f172a;
-  color: #fff;
-  font-family: Orbitron, Inter, Arial, sans-serif;
-  font-size: 25px;
-  font-weight: 900;
-  letter-spacing: -1px;
-  overflow: hidden;
-}
-
-.brand-symbol::before {
-  content: "";
-  position: absolute;
-  width: 62px;
-  height: 62px;
-  border: 4px solid var(--blue);
-  border-right-color: transparent;
-  border-radius: 50%;
-  left: -8px;
-  top: -7px;
-  opacity: .95;
-}
-
-.brand-symbol::after {
-  content: "";
-  position: absolute;
-  width: 9px;
-  height: 9px;
-  right: 12px;
-  top: 11px;
-  background: var(--blue-light);
-  border-radius: 2px;
-  box-shadow: 14px 14px 0 var(--blue), -58px 25px 0 var(--blue);
-}
-
-.brand-copy {
-  display: grid;
+.brand-main {
+  color: var(--navy);
+  font-size: 26px;
   line-height: 1;
-}
-
-.brand-copy strong {
-  font-size: 22px;
-  letter-spacing: 4px;
-  color: #0f172a;
   font-weight: 900;
+  letter-spacing: -0.8px;
 }
 
-.brand-copy small {
-  margin-top: 8px;
-  font-size: 12px;
-  letter-spacing: 5px;
+.brand-main::first-letter {
   color: var(--blue);
+}
+
+.brand-sub {
+  margin-top: 7px;
+  color: var(--blue);
+  font-size: 11px;
+  line-height: 1;
   font-weight: 900;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 .menu {
@@ -581,12 +540,6 @@ h2 {
 
 .footer strong { color: white; }
 
-@media (max-width: 1100px) {
-  .brand-copy strong { font-size: 18px; }
-  .brand-copy small { font-size: 10px; letter-spacing: 3px; }
-  .menu { gap: 18px; }
-}
-
 @media (max-width: 1000px) {
   .menu-btn { display: block; }
 
@@ -634,22 +587,13 @@ h2 {
   .nav { min-height: 76px; }
   .menu { top: 76px; }
 
-  .brand-symbol {
-    min-width: 76px;
-    height: 42px;
+  .brand-main {
     font-size: 21px;
-    border-radius: 14px;
   }
 
-  .brand-copy strong {
-    font-size: 15px;
-    letter-spacing: 2px;
-  }
-
-  .brand-copy small {
-    margin-top: 6px;
+  .brand-sub {
     font-size: 8px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
   }
 
   .hero h1 { font-size: 38px; }
