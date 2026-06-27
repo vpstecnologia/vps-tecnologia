@@ -14,7 +14,6 @@
 }
 
 * { box-sizing: border-box; }
-
 html { scroll-behavior: smooth; }
 
 body {
@@ -47,30 +46,8 @@ a { color: inherit; text-decoration: none; }
   justify-content: space-between;
 }
 
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.logo {
-  background: linear-gradient(135deg, var(--navy), #334155);
-  color: #fff;
-  border-radius: 16px;
-  padding: 12px 11px;
-  font-weight: 900;
-  letter-spacing: .4px;
-}
-
-.brand strong {
-  display: block;
-  font-size: 18px;
-}
-
-.brand small {
-  color: var(--muted);
-  font-weight: 700;
-}
+.brand { display: flex; align-items: center; }
+.brand-logo { width: 220px; max-width: 55vw; height: auto; display: block; }
 
 .menu {
   display: flex;
@@ -225,7 +202,6 @@ a { color: inherit; text-decoration: none; }
 }
 
 .section { padding: 82px 0; }
-
 .section.soft { background: var(--soft); }
 
 .split {
@@ -269,7 +245,8 @@ h2 {
 
 .card,
 .plan,
-.contact-box {
+.contact-box,
+.area-box {
   background: white;
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -302,9 +279,7 @@ h2 {
 
 .plans { grid-template-columns: repeat(3, 1fr); }
 
-.plan {
-  position: relative;
-}
+.plan { position: relative; }
 
 .plan.featured {
   border: 2px solid var(--blue);
@@ -347,10 +322,7 @@ h2 {
 
 .plan-btn { width: 100%; }
 
-.steps {
-  display: grid;
-  gap: 14px;
-}
+.steps { display: grid; gap: 14px; }
 
 .steps div {
   background: white;
@@ -398,6 +370,26 @@ h2 {
 .reason-grid span {
   color: #cbd5e1;
   line-height: 1.7;
+}
+
+.area-box {
+  min-height: 210px;
+  display: grid;
+  place-content: center;
+  background:
+    radial-gradient(circle at top right, rgba(37,99,235,.18), transparent 35%),
+    var(--soft);
+}
+
+.area-box strong {
+  font-size: 36px;
+  color: var(--blue);
+}
+
+.area-box span {
+  margin-top: 12px;
+  color: var(--muted);
+  font-weight: 700;
 }
 
 .contact { background: white; }
@@ -483,6 +475,6 @@ h2 {
   }
 
   .plan.featured { transform: none; }
-
   .plan ul { min-height: auto; }
+  .brand-logo { width: 185px; }
 }

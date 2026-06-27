@@ -1,29 +1,27 @@
-# VPS Tecnologia - Site v2
+# VPS Tecnologia - Site v3
 
-Versão atualizada do site da VPS Tecnologia.
+Versão atualizada do site.
 
-## Alterações desta versão
-- Removida a tabela de preços avulsos.
+## O que mudou
+- Inserida logo no canto superior esquerdo.
+- Removida a frase sobre não exibir preços avulsos.
+- Não há menção a empresas/clientes atendidos.
 - Mantidos apenas os planos empresariais.
-- Novo visual mais profissional.
-- Botão flutuante de WhatsApp.
-- Melhor estrutura de SEO.
-- Seções: Início, Quem Somos, Serviços, Planos, Como Funciona e Contato.
+- Incluída seção de área de atendimento.
+- Visual corporativo em azul, cinza, branco e preto.
 
 ## Arquivos
 - index.html
 - style.css
 - script.js
+- logo.svg
 
 ## Como atualizar no GitHub
-1. Acesse o repositório `vps-tecnologia`.
+1. Entre no repositório `vps-tecnologia`.
 2. Clique em `Add file`.
 3. Clique em `Upload files`.
-4. Envie estes 3 arquivos:
-   - index.html
-   - style.css
-   - script.js
-5. Quando o GitHub perguntar, clique em `Replace` para substituir os arquivos antigos.
+4. Envie todos os arquivos desta pasta.
+5. Quando perguntar, substitua os antigos.
 6. Clique em `Commit changes`.
 
-Depois disso, se o Cloudflare Pages já estiver conectado ao GitHub, o site atualiza sozinho.
+Se o Cloudflare Pages já estiver conectado, o site atualiza automaticamente.

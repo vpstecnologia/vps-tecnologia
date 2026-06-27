@@ -1,0 +1,9 @@
+<svg width="220" height="60" viewBox="0 0 220 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="60" rx="16" fill="#0F172A"/>
+  <circle cx="36" cy="30" r="21" fill="#111827" stroke="#2563EB" stroke-width="3"/>
+  <path d="M21 23L30 40L39 20" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M43 40V20H55C61 20 65 24 65 30C65 36 61 40 55 40H48" stroke="#2563EB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M73 23H91C95 23 97 25 97 29C97 33 95 35 91 35H80C76 35 74 37 74 41C74 45 77 47 81 47H99" stroke="#CBD5E1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="112" y="28" font-family="Arial, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF">VPS Tecnologia</text>
+  <text x="112" y="45" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="3" fill="#93C5FD">SOLUÇÕES EM TI</text>
+</svg>
