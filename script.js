@@ -1,25 +1,25 @@
 const CONFIG = {
-  // Troque pelo WhatsApp oficial da VPS Tecnologia.
-  // Formato: 55 + DDD + número. Exemplo: 5582999999999
-  whatsapp: "5582993631632",
-  mensagem: "Olá! Vim pelo site da VPS Tecnologia e gostaria de solicitar um atendimento."
+  // WhatsApp da VPS Tecnologia.
+  // Use formato internacional: 55 + DDD + número.
+  whatsapp: "5582993631632"
 };
 
-function linkWhatsApp(texto) {
-  return `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(texto)}`;
+function wa(message) {
+  return `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(message)}`;
 }
 
 const links = {
-  whatsappHero: "Olá! Vim pelo site da VPS Tecnologia e gostaria de solicitar um diagnóstico.",
+  whatsappHero: "Olá! Vim pelo site da VPS Tecnologia e gostaria de solicitar um diagnóstico gratuito.",
   whatsappFooter: "Olá! Gostaria de falar com a VPS Tecnologia.",
+  whatsappFloat: "Olá! Vim pelo site da VPS Tecnologia e preciso de atendimento.",
   whatsappPlan1: "Olá! Tenho interesse no Plano Essencial da VPS Tecnologia.",
   whatsappPlan2: "Olá! Tenho interesse no Plano Profissional da VPS Tecnologia.",
   whatsappPlan3: "Olá! Tenho interesse no Plano Empresarial da VPS Tecnologia."
 };
 
-Object.entries(links).forEach(([id, msg]) => {
-  const el = document.getElementById(id);
-  if (el) el.href = linkWhatsApp(msg);
+Object.entries(links).forEach(([id, message]) => {
+  const element = document.getElementById(id);
+  if (element) element.href = wa(message);
 });
 
 document.getElementById("year").textContent = new Date().getFullYear();

@@ -1,35 +1,29 @@
-# Site VPS Tecnologia
+# VPS Tecnologia - Site v2
 
-Site institucional simples para a VPS Tecnologia.
+Versão atualizada do site da VPS Tecnologia.
+
+## Alterações desta versão
+- Removida a tabela de preços avulsos.
+- Mantidos apenas os planos empresariais.
+- Novo visual mais profissional.
+- Botão flutuante de WhatsApp.
+- Melhor estrutura de SEO.
+- Seções: Início, Quem Somos, Serviços, Planos, Como Funciona e Contato.
 
 ## Arquivos
-- `index.html`
-- `style.css`
-- `script.js`
+- index.html
+- style.css
+- script.js
 
-## Como editar WhatsApp
-Abra o arquivo `script.js` e altere:
+## Como atualizar no GitHub
+1. Acesse o repositório `vps-tecnologia`.
+2. Clique em `Add file`.
+3. Clique em `Upload files`.
+4. Envie estes 3 arquivos:
+   - index.html
+   - style.css
+   - script.js
+5. Quando o GitHub perguntar, clique em `Replace` para substituir os arquivos antigos.
+6. Clique em `Commit changes`.
 
-```js
-whatsapp: "5582993631632"
-```
-
-Use o formato:
-55 + DDD + número
-
-Exemplo:
-5582999999999
-
-## Como publicar gratuitamente
-
-Recomendado:
-1. Cloudflare Pages
-2. Vercel
-3. Netlify
-
-Para publicar:
-- Crie uma conta no GitHub
-- Crie um repositório chamado `vps-tecnologia-site`
-- Envie os arquivos
-- Conecte o repositório na plataforma escolhida
-- Adicione o domínio `vpstecnologia.com.br`
+Depois disso, se o Cloudflare Pages já estiver conectado ao GitHub, o site atualiza sozinho.
