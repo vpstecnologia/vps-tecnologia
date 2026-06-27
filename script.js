@@ -1,6 +1,4 @@
 const CONFIG = {
-  // WhatsApp da VPS Tecnologia.
-  // Use formato internacional: 55 + DDD + número.
   whatsapp: "5582993631632"
 };
 
@@ -9,7 +7,6 @@ function wa(message) {
 }
 
 const links = {
-  whatsappTop: "Olá! Vim pelo site da VPS Tecnologia e gostaria de atendimento.",
   whatsappHero: "Olá! Vim pelo site da VPS Tecnologia e gostaria de solicitar um diagnóstico gratuito.",
   whatsappFooter: "Olá! Gostaria de falar com a VPS Tecnologia.",
   whatsappFloat: "Olá! Vim pelo site da VPS Tecnologia e preciso de atendimento.",
