@@ -1,31 +1,11 @@
-const CONFIG = {
-  whatsapp: "5582993631632"
-};
-
-function wa(message) {
-  return `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(message)}`;
-}
-
-const links = {
-  whatsappHero: "Olá! Vim pelo site da VPS Tecnologia e gostaria de solicitar um diagnóstico gratuito.",
-  whatsappFooter: "Olá! Gostaria de falar com a VPS Tecnologia.",
-  whatsappFloat: "Olá! Vim pelo site da VPS Tecnologia e preciso de atendimento."
-};
-
-Object.entries(links).forEach(([id, message]) => {
-  const element = document.getElementById(id);
-  if (element) element.href = wa(message);
-});
-
-document.getElementById("year").textContent = new Date().getFullYear();
-
-const menuBtn = document.getElementById("menuBtn");
-const menu = document.getElementById("menu");
-
-menuBtn.addEventListener("click", () => {
-  menu.classList.toggle("open");
-});
-
-document.querySelectorAll(".menu a").forEach(link => {
-  link.addEventListener("click", () => menu.classList.remove("open"));
-});
+const CONFIG={whatsapp:"5582993631632"};
+const wa=message=>`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(message)}`;
+const links={whatsappNav:"Olá! Vim pelo site e gostaria de falar com a VPS Tecnologia.",whatsappHero:"Olá! Vim pelo site da VPS Tecnologia e gostaria de solicitar um diagnóstico.",whatsappProcess:"Olá! Gostaria de iniciar um atendimento com a VPS Tecnologia.",whatsappFooter:"Olá! Gostaria de falar com a VPS Tecnologia sobre uma solução em TI.",whatsappFloat:"Olá! Vim pelo site da VPS Tecnologia e preciso de atendimento.",waComputadores:"Olá! Preciso de atendimento para computador ou notebook.",waRedes:"Olá! Preciso de ajuda com rede ou Wi-Fi.",waEmpresas:"Olá! Gostaria de conhecer as soluções de suporte para empresas.",waBackup:"Olá! Gostaria de ajuda com backup e segurança dos meus arquivos.",waImpressoras:"Olá! Preciso de atendimento para uma impressora.",waRemoto:"Olá! Gostaria de solicitar suporte remoto."};
+Object.entries(links).forEach(([id,msg])=>{const el=document.getElementById(id);if(el)el.href=wa(msg)});
+document.getElementById("year").textContent=new Date().getFullYear();
+const header=document.getElementById("header"),menu=document.getElementById("menu"),menuBtn=document.getElementById("menuBtn");
+const updateHeader=()=>header.classList.toggle("scrolled",window.scrollY>20);updateHeader();window.addEventListener("scroll",updateHeader,{passive:true});
+menuBtn.addEventListener("click",()=>{const open=menu.classList.toggle("open");menuBtn.setAttribute("aria-expanded",open)});
+document.querySelectorAll(".menu a").forEach(a=>a.addEventListener("click",()=>{menu.classList.remove("open");menuBtn.setAttribute("aria-expanded","false")}));
+const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add("visible");observer.unobserve(entry.target)}}),{threshold:.12});
+document.querySelectorAll(".reveal").forEach(el=>observer.observe(el));

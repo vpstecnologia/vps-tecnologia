@@ -1,219 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>VPS Tecnologia | Suporte em TI em Penedo/AL</title>
-  <meta name="description" content="Suporte técnico, manutenção, backup, redes, Wi‑Fi e impressoras em Penedo/AL. Diagnóstico gratuito em Penedo." />
-  <meta name="theme-color" content="#0a0a0a" />
-
-  <meta property="og:title" content="VPS Tecnologia | Soluções em TI" />
-  <meta property="og:description" content="Suporte técnico residencial e empresarial em Penedo/AL. Diagnóstico gratuito." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://vpstecnologia.com.br" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VPS Tecnologia | Soluções em TI em Penedo/AL</title>
+  <meta name="description" content="Suporte técnico, manutenção, redes, Wi-Fi, backup e soluções em TI para residências e empresas em Penedo/AL.">
+  <meta name="theme-color" content="#080808">
+  <meta property="og:title" content="VPS Tecnologia | Soluções em TI">
+  <meta property="og:description" content="Tecnologia simples, segura e eficiente para residências e empresas.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.vpstecnologia.com.br/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <header class="header">
+  <header class="header" id="header">
     <div class="container nav">
-      <a href="#inicio" class="brand" aria-label="VPS Tecnologia">
-        <img src="logo.png" alt="VPS Tecnologia" class="brand-logo">
-      </a>
-
-      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
-
+      <a href="#inicio" class="brand" aria-label="VPS Tecnologia - início"><img src="logo.png" alt="VPS Tecnologia"></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
       <nav class="menu" id="menu">
-        <a href="#sobre">Quem somos</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#como-funciona">Como funciona</a>
-        <a href="#contato">Contato</a>
+        <a href="#sobre">Quem somos</a><a href="#servicos">Serviços</a><a href="#processo">Como funciona</a><a href="#grupo">Grupo VPS</a>
+        <a class="nav-cta" id="whatsappNav" target="_blank" rel="noopener">Fale conosco</a>
       </nav>
     </div>
   </header>
 
   <main id="inicio">
     <section class="hero">
-      <div class="hero-bg"></div>
-
-      <div class="container hero-grid">
-        <div class="hero-text">
-          <p class="tag">Atendimento em Penedo/AL</p>
-          <h1>Suporte em TI com atendimento rápido, claro e profissional.</h1>
-          <p class="subtitle">
-            A VPS Tecnologia atende residências e empresas com manutenção de computadores,
-            redes, Wi‑Fi, backup, impressoras e suporte técnico presencial ou remoto.
-          </p>
-
+      <div class="hero-grid-lines"></div><div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span> Tecnologia para Penedo e região</div>
+          <h1>TI que funciona.<br><em>Sem complicação.</em></h1>
+          <p>Suporte técnico, redes, backup e manutenção com atendimento próximo, linguagem simples e foco no que realmente importa: manter você e sua empresa funcionando.</p>
           <div class="actions">
-            <a class="btn primary" id="whatsappHero" target="_blank" rel="noopener">Solicitar diagnóstico gratuito</a>
-            <a class="btn ghost" href="#servicos">Conhecer serviços</a>
+            <a class="btn btn-light" id="whatsappHero" target="_blank" rel="noopener">Solicitar diagnóstico <span>→</span></a>
+            <a class="btn btn-outline" href="#servicos">Conhecer soluções</a>
           </div>
-
-          <div class="highlights">
-            <div><span>✓</span> Diagnóstico gratuito em Penedo</div>
-            <div><span>✓</span> Orçamento antes da execução</div>
-            <div><span>✓</span> Atendimento residencial e empresarial</div>
-          </div>
+          <div class="trust-row"><div><strong>Atendimento local</strong><span>Penedo/AL e região</span></div><div><strong>Orçamento claro</strong><span>Antes da execução</span></div><div><strong>Suporte completo</strong><span>Presencial e remoto</span></div></div>
         </div>
-
-        <div class="hero-panel">
-          <div class="panel-status">
-            <span></span>
-            <strong>Atendimento disponível</strong>
+        <div class="hero-visual reveal delay-1">
+          <div class="dashboard-card">
+            <div class="dash-top"><div><small>VPS TECNOLOGIA</small><strong>Central de soluções</strong></div><div class="status"><i></i> Disponível</div></div>
+            <div class="tech-display"><div class="rings"><span></span><span></span><span></span><b>VPS</b></div></div>
+            <div class="dash-list">
+              <div><span class="icon">01</span><p><strong>Computadores</strong><small>Manutenção e desempenho</small></p><b>→</b></div>
+              <div><span class="icon">02</span><p><strong>Redes e Wi-Fi</strong><small>Conexão estável e segura</small></p><b>→</b></div>
+              <div><span class="icon">03</span><p><strong>Suporte empresarial</strong><small>Operação sem interrupções</small></p><b>→</b></div>
+            </div>
           </div>
-
-          <h2>Problemas que resolvemos</h2>
-
-          <div class="problem-list">
-            <div><span>🖥️</span> Computador lento ou travando</div>
-            <div><span>📄</span> Formatação e backup de arquivos</div>
-            <div><span>📶</span> Internet fraca ou Wi‑Fi instável</div>
-            <div><span>🖨️</span> Impressora sem funcionar</div>
-            <div><span>🎧</span> Suporte mensal para empresas</div>
-          </div>
+          <div class="floating-note note-one"><span>✓</span><div><strong>Diagnóstico</strong><small>rápido e transparente</small></div></div>
+          <div class="floating-note note-two"><span>24</span><div><strong>Suporte</strong><small>presencial ou remoto</small></div></div>
         </div>
+      </div>
+      <div class="scroll-cue"><span></span> Explore nossas soluções</div>
+    </section>
+
+    <section class="service-strip">
+      <div class="container strip-grid"><span>MANUTENÇÃO</span><i></i><span>REDES E WI-FI</span><i></i><span>BACKUP</span><i></i><span>IMPRESSORAS</span><i></i><span>SUPORTE EMPRESARIAL</span></div>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="container about-grid">
+        <div class="section-heading reveal"><p class="kicker">01 — Quem somos</p><h2>Tecnologia próxima, confiável e feita para resolver.</h2></div>
+        <div class="about-content reveal delay-1"><p class="lead">A VPS Tecnologia ajuda pessoas e empresas a usarem a tecnologia com mais segurança, produtividade e tranquilidade.</p><p>Explicamos cada problema de forma clara, apresentamos o orçamento antes da execução e entregamos o serviço testado e organizado. Sem termos complicados, sem surpresas.</p><div class="about-points"><div><span>01</span><strong>Atendimento humano</strong></div><div><span>02</span><strong>Soluções sob medida</strong></div><div><span>03</span><strong>Compromisso com o resultado</strong></div></div></div>
       </div>
     </section>
 
-    <section class="quick-services">
-      <div class="container quick-grid">
-        <div><span>🖥️</span><strong>Manutenção de computadores</strong><small>Reparo, limpeza e otimização.</small></div>
-        <div><span>📶</span><strong>Redes e Wi‑Fi</strong><small>Instalação e melhorias.</small></div>
-        <div><span>🖨️</span><strong>Impressoras</strong><small>Instalação e configuração.</small></div>
-        <div><span>☁️</span><strong>Backup e segurança</strong><small>Proteção dos dados importantes.</small></div>
-        <div><span>🎧</span><strong>Suporte técnico</strong><small>Presencial e remoto.</small></div>
-      </div>
-    </section>
-
-    <section class="section" id="sobre">
-      <div class="container split">
-        <div>
-          <p class="tag blue">Quem somos</p>
-          <h2>Tecnologia com linguagem simples e foco em solução.</h2>
-        </div>
-
-        <div class="content">
-          <p>
-            A VPS Tecnologia nasceu para ajudar pessoas e pequenos negócios de Penedo/AL
-            a resolverem problemas de informática com confiança, transparência e atendimento próximo.
-          </p>
-          <p>
-            Nosso compromisso é explicar o problema de forma clara, apresentar o orçamento antes da execução
-            e entregar o serviço testado, organizado e com responsabilidade.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section soft" id="servicos">
+    <section class="section services" id="servicos">
       <div class="container">
-        <div class="section-title">
-          <p class="tag blue">Serviços</p>
-          <h2>Tudo o que sua casa ou empresa precisa em tecnologia.</h2>
-          <p>Atendimento para residências e empresas, com soluções em informática, redes, backup e suporte técnico.</p>
-        </div>
-
-        <div class="service-grid">
-          <article class="card"><span>💻</span><h3>Computadores e notebooks</h3><p>Formatação, limpeza, otimização, instalação de SSD, drivers e correção de lentidão.</p></article>
-          <article class="card"><span>🗂️</span><h3>Backup de arquivos</h3><p>Cópia e organização de documentos, fotos, planilhas e arquivos importantes.</p></article>
-          <article class="card"><span>📡</span><h3>Redes e Wi‑Fi</h3><p>Configuração de roteadores, melhoria de sinal, pontos de rede e organização da estrutura.</p></article>
-          <article class="card"><span>🖨️</span><h3>Impressoras</h3><p>Instalação, configuração Wi‑Fi, compartilhamento em rede e ajustes de funcionamento.</p></article>
-          <article class="card"><span>🧑‍💼</span><h3>Suporte empresarial</h3><p>Atendimento contínuo e preventivo para empresas que precisam manter a operação funcionando.</p></article>
-          <article class="card"><span>🛠️</span><h3>Suporte remoto</h3><p>Atendimento à distância para problemas simples, configurações e orientações.</p></article>
+        <div class="section-heading centered reveal"><p class="kicker">02 — Nossas soluções</p><h2>Tudo o que você precisa para a tecnologia trabalhar a seu favor.</h2><p>Do computador de casa à infraestrutura da sua empresa.</p></div>
+        <div class="services-grid">
+          <article class="service-card reveal"><span class="number">01</span><div class="line-icon">⌁</div><h3>Computadores e notebooks</h3><p>Formatação, limpeza, otimização, instalação de SSD, drivers e correção de lentidão.</p><a id="waComputadores" target="_blank" rel="noopener">Solicitar atendimento →</a></article>
+          <article class="service-card reveal delay-1"><span class="number">02</span><div class="line-icon">◉</div><h3>Redes e Wi-Fi</h3><p>Configuração de roteadores, melhoria de sinal, pontos de rede e organização da estrutura.</p><a id="waRedes" target="_blank" rel="noopener">Solicitar atendimento →</a></article>
+          <article class="service-card dark reveal delay-2"><span class="number">03</span><div class="line-icon">◇</div><h3>Suporte empresarial</h3><p>Atendimento preventivo e contínuo para manter sua equipe e operação funcionando.</p><a id="waEmpresas" target="_blank" rel="noopener">Falar sobre minha empresa →</a></article>
+          <article class="service-card reveal"><span class="number">04</span><div class="line-icon">□</div><h3>Backup e segurança</h3><p>Proteção e organização de documentos, fotos, planilhas e dados importantes.</p><a id="waBackup" target="_blank" rel="noopener">Proteger meus arquivos →</a></article>
+          <article class="service-card reveal delay-1"><span class="number">05</span><div class="line-icon">▣</div><h3>Impressoras</h3><p>Instalação, configuração Wi-Fi, compartilhamento em rede e ajustes de funcionamento.</p><a id="waImpressoras" target="_blank" rel="noopener">Solicitar atendimento →</a></article>
+          <article class="service-card reveal delay-2"><span class="number">06</span><div class="line-icon">↗</div><h3>Suporte remoto</h3><p>Atendimento à distância para configurações, orientações e resolução ágil de problemas.</p><a id="waRemoto" target="_blank" rel="noopener">Pedir suporte remoto →</a></article>
         </div>
       </div>
     </section>
 
+    <section class="section process" id="processo"><div class="container process-grid"><div class="process-copy reveal"><p class="kicker light">03 — Como funciona</p><h2>Simples do primeiro contato à solução.</h2><p>Um processo transparente para você saber exatamente o que será feito.</p><a class="btn btn-light" id="whatsappProcess" target="_blank" rel="noopener">Começar agora <span>→</span></a></div><div class="steps reveal delay-1"><div><b>01</b><span><strong>Conte o que está acontecendo</strong><small>Fale conosco pelo WhatsApp.</small></span></div><div><b>02</b><span><strong>Receba o diagnóstico</strong><small>Analisamos a melhor solução.</small></span></div><div><b>03</b><span><strong>Aprove o orçamento</strong><small>Você decide antes da execução.</small></span></div><div><b>04</b><span><strong>Problema resolvido</strong><small>Executamos, testamos e orientamos.</small></span></div></div></div></section>
 
-    <section class="section soft" id="como-funciona">
-      <div class="container split">
-        <div>
-          <p class="tag blue">Como funciona</p>
-          <h2>Atendimento sem surpresa.</h2>
-          <p class="muted">Você sabe o que será feito e aprova o orçamento antes da execução.</p>
-        </div>
+    <section class="section group" id="grupo"><div class="container"><div class="group-intro reveal"><p class="kicker">04 — Grupo VPS</p><h2>Duas empresas.<br>Uma visão de futuro.</h2><p>O Grupo VPS reúne tecnologia e mídia para criar soluções que conectam empresas, pessoas e oportunidades.</p></div><div class="group-cards"><article class="company-card tech reveal"><span>EMPRESA 01</span><img src="logo.png" alt="VPS Tecnologia"><p>Soluções em suporte, infraestrutura, redes e tecnologia para residências e empresas.</p><a href="#inicio">Você está aqui</a></article><article class="company-card media reveal delay-1"><span>EMPRESA 02</span><div class="media-logo"><b>VPS</b><small>MÍDIA CAR</small></div><p>Mídia digital OOH em telas instaladas em carros de aplicativo, aproximando marcas do público em movimento.</p><em>Em breve</em></article></div></div></section>
 
-        <div class="steps">
-          <div><strong>1</strong><span>Você chama no WhatsApp</span></div>
-          <div><strong>2</strong><span>Fazemos o diagnóstico</span></div>
-          <div><strong>3</strong><span>Enviamos o orçamento</span></div>
-          <div><strong>4</strong><span>Você aprova o serviço</span></div>
-          <div><strong>5</strong><span>Executamos, testamos e orientamos</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section reasons">
-      <div class="container">
-        <div class="section-title light">
-          <p class="tag">Diferenciais</p>
-          <h2>Por que escolher a VPS Tecnologia?</h2>
-        </div>
-
-        <div class="reason-grid">
-          <div><strong>Atendimento local</strong><span>Estamos próximos e entendemos a realidade de Penedo.</span></div>
-          <div><strong>Transparência</strong><span>Orçamento claro antes da execução do serviço.</span></div>
-          <div><strong>Prevenção</strong><span>Foco em evitar problemas, não apenas corrigir.</span></div>
-          <div><strong>Responsabilidade</strong><span>Serviços executados com cuidado e acompanhamento.</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section area">
-      <div class="container split">
-        <div>
-          <p class="tag blue">Área de atendimento</p>
-          <h2>Atendimento em Penedo e região.</h2>
-          <p class="muted">Atendimento presencial em Penedo/AL. Para cidades vizinhas, o deslocamento é combinado conforme a necessidade.</p>
-        </div>
-        <div class="area-box">
-          <strong>Penedo/AL</strong>
-          <span>Suporte técnico • Redes • Backup • Manutenção</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section contact" id="contato">
-      <div class="container contact-box">
-        <p class="tag blue">Contato</p>
-        <h2>Solicite seu diagnóstico gratuito em Penedo.</h2>
-        <p>
-          Fale com a VPS Tecnologia pelo WhatsApp e explique rapidamente o que está acontecendo.
-          Retornaremos com orientação e, se necessário, agendamos o atendimento.
-        </p>
-
-        <div class="actions center">
-          <a class="btn primary" id="whatsappFooter" target="_blank" rel="noopener">Chamar no WhatsApp</a>
-          <a class="btn ghost dark-btn" href="mailto:contato@vpstecnologia.com.br">contato@vpstecnologia.com.br</a>
-        </div>
-
-        <p class="address">Penedo/AL • Atendimento residencial e empresarial</p>
-      </div>
-    </section>
+    <section class="section final-cta" id="contato"><div class="container cta-box reveal"><div><p class="kicker light">Vamos conversar?</p><h2>Sua tecnologia pode ser mais simples.</h2><p>Explique o que você precisa e receba uma orientação inicial pelo WhatsApp.</p></div><a class="btn btn-light big" id="whatsappFooter" target="_blank" rel="noopener">Falar com a VPS Tecnologia <span>→</span></a></div></section>
   </main>
 
-  <a class="float-whatsapp" id="whatsappFloat" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">💬</a>
-
-  <footer class="footer">
-    <div class="container footer-grid">
-      <div>
-        <img src="logo.png" alt="VPS Tecnologia" class="footer-logo">
-        <p>Soluções em TI para residências e empresas.</p>
-        <small>Uma empresa do Grupo VPS</small>
-      </div>
-      <div>
-        <p>© <span id="year"></span> VPS Tecnologia. Todos os direitos reservados.</p>
-      </div>
-    </div>
-  </footer>
-
+  <a class="float-whatsapp" id="whatsappFloat" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp"><span>Fale conosco</span><b>↗</b></a>
+  <footer class="footer"><div class="container footer-grid"><div><img src="logo.png" alt="VPS Tecnologia"><p>Tecnologia simples. Soluções que funcionam.</p></div><div class="footer-links"><a href="#servicos">Serviços</a><a href="#sobre">Quem somos</a><a href="#grupo">Grupo VPS</a><a href="mailto:contato@vpstecnologia.com.br">E-mail</a></div><div class="footer-end"><small>Uma empresa do Grupo VPS</small><p>© <span id="year"></span> VPS Tecnologia.</p></div></div></footer>
   <script src="script.js"></script>
 </body>
 </html>
