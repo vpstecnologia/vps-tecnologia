@@ -1,21 +1,13 @@
-VPS TECNOLOGIA — SITE COMPLETO
+VPS TECNOLOGIA - SITE CORRIGIDO
 
-ARQUIVOS:
-- index.html: página principal responsiva.
-- logo-vps-tecnologia.svg: logo vetorial.
-- favicon.svg: ícone do navegador.
+Logo corrigida no cabecalho, no computador e no rodape.
 
-COMO VISUALIZAR:
-1. Extraia o arquivo ZIP.
-2. Abra index.html no navegador.
+CLOUDFLARE PAGES (upload direto):
+1. Abra Workers & Pages e selecione seu projeto Pages.
+2. Abra Deployments e escolha Create deployment / Upload assets, quando disponivel.
+3. Envie a pasta extraida, com index.html na raiz.
+4. Antes de publicar em producao, teste em Preview.
+5. Para atualizar a versao principal, publique em Production.
 
-COMO PUBLICAR:
-Envie o conteúdo da pasta (não a pasta inteira, se a hospedagem espera o conteúdo na raiz) para o diretório público do seu domínio, normalmente public_html, depois de fazer backup dos arquivos existentes.
-
-CONFIGURAÇÕES:
-- Cores: preto, laranja e branco.
-- WhatsApp: +55 82 99363-1632 (mensagens identificam VPS Tecnologia).
-- Atendimento: Penedo e região, residencial e empresarial.
-- Formulário abre o WhatsApp; não envia dados a um servidor.
-
-OBSERVAÇÃO: a publicação no domínio vpstecnologia.com.br depende do acesso à hospedagem e não foi realizada automaticamente.
+Se o projeto estiver ligado ao GitHub, altere os arquivos no repositorio e faca um novo deploy.
+Nao altere registros DNS ou e-mail.

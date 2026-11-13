@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 170" role="img" aria-labelledby="t d"><title id="t">VPS Tecnologia</title><desc id="d">Logotipo da VPS Tecnologia em laranja e branco</desc><defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#ff6a00"/><stop offset="1" stop-color="#ffae36"/></linearGradient></defs><path d="M42 55C125 -8 302 -6 371 35" stroke="url(#g)" stroke-width="12" fill="none" stroke-linecap="round"/><path d="M366 27l8 22-28-5" fill="#ff8b19"/><text x="38" y="111" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="100" font-weight="900" font-style="italic" letter-spacing="-8">VP</text><text x="199" y="111" fill="url(#g)" font-family="Arial,Helvetica,sans-serif" font-size="100" font-weight="900" font-style="italic">S</text><text x="50" y="148" fill="#e9edf5" font-family="Arial,Helvetica,sans-serif" font-size="26" letter-spacing="12" font-weight="bold">TECNOLOGIA</text><path d="M42 158H377" stroke="#ff8214" stroke-width="3" opacity=".75"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 162" role="img" aria-labelledby="title desc">
+<title id="title">VPS Tecnologia</title><desc id="desc">Logo VPS em branco e laranja, com arco laranja e Tecnologia abaixo</desc>
+<defs><linearGradient id="orange" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff7900"/><stop offset="1" stop-color="#ff9f2b"/></linearGradient></defs>
+<path d="M22 44 C102 -4 249 -3 334 32" stroke="url(#orange)" stroke-width="9" stroke-linecap="round" fill="none"/>
+<path d="M326 25 L345 37 L319 40" fill="#ff901c"/>
+<text x="27" y="115" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-style="italic" font-size="99" letter-spacing="-4"><tspan fill="#ffffff">VP</tspan><tspan fill="#ff7900">S</tspan></text>
+<text x="35" y="147" font-family="Arial,Helvetica,sans-serif" font-weight="700" fill="#ffffff" font-size="21" letter-spacing="8">TECNOLOGIA</text>
+<path d="M28 158 H344" stroke="#ff7900" stroke-width="2"/>
+</svg>
